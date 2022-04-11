@@ -14,19 +14,14 @@
     <title>QUIZ프로젝트</title>
   </head>
   <body>
-    <div class="first-container">
-      <div class="question-meter">
-        <p class="question-p"></p>
-        <progress class="meter" max="100" value="30"></progress>
-      </div>
-      <div class="score-container">
-        <p style="margin: 0;">Score</p>
-        <p class="score">0</p>
-      </div>
-    </div>
-    <div class="second-container">
-      <h1 class="question"></h1>
-      <div class="choices"></div>
+    <div class="background">
+        <img src="https://daniel2231.github.io/Web-Dev-Quiz-Practice/assets/question.png" alt="홈중앙">
+        <div class="container">
+            <h1 class="title">JavaScript Quiz</h1>
+            <a href="quiz.html">
+                <button class="start-btn">Play</button>
+            </a>
+        </div>
     </div>
     <script src="quiz.js" onload="updatePage()"></script>
   </body>

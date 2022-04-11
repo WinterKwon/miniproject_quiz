@@ -9,7 +9,25 @@ body {
     height: 100vh;
     font-family: 'Noto Sans KR', sans-serif;
   }
-  
+  .background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 200px;
+    border: 5px solid #5AA7EB;
+    border-radius: 20px;
+}
+
+.title {
+    color: #5AA7EB;
+}
+
   .first-container {
     display: flex;
     flex-direction: row;
